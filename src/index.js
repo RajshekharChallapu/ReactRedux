@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // ES6....creating new component...
-const App = function() {
+// ES6 function to =>
+const App = () => {
     return <div > Hi < /div>;
 };
 
