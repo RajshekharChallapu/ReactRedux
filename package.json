@@ -5,6 +5,7 @@
     "dependencies": {
         "boilerplate": "^0.6.1",
         "react": "^16.2.0",
+        "react-bundle": "^1.0.4",
         "react-dom": "^16.2.0",
         "react-scripts": "1.0.17",
         "redux": "^3.7.2"
@@ -16,6 +17,7 @@
         "eject": "react-scripts eject"
     },
     "devDependencies": {
+        "webpack": "^3.10.0",
         "webpack-dev-server": "^2.9.7"
     }
 }
