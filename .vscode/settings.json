@@ -1,2 +1,78 @@
 {
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on",
+    "files.autoSave": "on",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "emmet.includeLanguages": {
+        "edge": "html"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 1,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "team.showWelcomeMessage": false,
+    "workbench.startupEditor": "welcomePage",
+    "terminal.integrated.cwd": "",
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "git.enableSmartCommit": true,
+    "jshint.options": {
+        "esversion": 6,
+    },
+    "html.format.Unformatted": "pre,code,textarea",
+    "importCost.smallPackageSize": 500000,
+    "importCost.showCalculatingDecoration": false,
+    "importCost.mediumPackageSize": 1000000,
+    "importCost.largePackageColor": "#f6f7f2",
+    "importCost.typescriptExtensions": [
+        "\\.jsx?$"
+    ],
+    "importCost.bundleSizeDecoration": "default",
+
+    // Threshold to determine extreme high complexity level
+    "codemetrics.basics.ComplexityLevelExtreme": 50,
+    // Code lens message for extreme high complexity level
+    //  "codemetrics.basics.ComplexityLevelExtremeDescription": "Bloody hell...",
+    // Threshold to determine high complexity level
+    "codemetrics.basics.ComplexityLevelHigh": 25,
+    // Code lens message for high complexity level
+    // "codemetrics.basics.ComplexityLevelHighDescription": "You must be kidding",
+    // Threshold to determine low complexity level
+    "codemetrics.basics.ComplexityLevelLow": 100,
+    // Code lens message for low complexity level
+    // "codemetrics.basics.ComplexityLevelLowDescription": "Everything is cool!",
+    // Threshold to determine normal complexity level
+    "codemetrics.basics.ComplexityLevelNormal": 535,
+    // Code lens message for normal complexity level
+    // "codemetrics.basics.ComplexityLevelNormalDescription": "It's time to do something...",
+    // Code lens message template {0} stands for the actual value {1} is for the complexity level description
+    "codemetrics.basics.ComplexityTemplate": " ",
+    "update.channel": "none",
+    "codemetrics.basics.ComplexityTemplate": " ",
+    "update.channel": "none",
+    "codemetrics.nodeconfiguration.MethodSignatureDescription": "none",
+    "codemetrics.basics.OverviewRulerModeEnabled": false,
+    "codemetrics.basics.MetricsForMethodDeclarationsToggled": false,
+    "codemetrics.basics.MetricsForFunctionExpressionsToggled": false,
+    "codemetrics.basics.MetricsForFunctionDeclarationsToggled": false,
+    "codemetrics.basics.MetricsForEnumDeclarationsToggled": false,
+    "codemetrics.basics.MetricsForConstructorsToggled": false,
+    "codemetrics.basics.MetricsForClassDeclarationsToggled": false,
+    "codemetrics.basics.MetricsForArrowFunctionsToggled": false,
+    "codemetrics.basics.DiagnosticsEnabled": false,
+    "codemetrics.basics.ComplexityLevelNormalDescription": "none",
+    "codemetrics.basics.CodeLensHiddenUnder": 2,
+    "codemetrics.basics.CodeLensEnabled": false,
+
 }

@@ -4,11 +4,13 @@
     "private": true,
     "dependencies": {
         "boilerplate": "^0.6.1",
+        "nodemon": "^1.14.3",
         "react": "^16.2.0",
         "react-bundle": "^1.0.4",
         "react-dom": "^16.2.0",
         "react-scripts": "1.0.17",
-        "redux": "^3.7.2"
+        "redux": "^3.7.2",
+        "youtube-api-search": "0.0.5"
     },
     "scripts": {
         "start": "react-scripts start",
