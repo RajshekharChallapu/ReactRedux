@@ -8,7 +8,6 @@ class SearchBar extends Component {
         /* calling parent method with super */
         super(props);
         /* React components can have state by setting this.state in the constructor..lets store value of searchbar in state.. and read the user input  */
-        
         this.state = { term: ''};
     }
 
