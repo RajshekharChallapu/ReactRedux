@@ -5,7 +5,7 @@ import React, {Component} from 'react';
 class SearchBar extends Component {
 
     constructor(props) {
-        /* calling parent method with super */
+        /* calling parent method with super..props(passing data) are immutable.. */
         super(props);
         /* React components can have state by setting this.state in the constructor..lets store value of searchbar in state.. and read the user input  */
         this.state = { term: ''};
@@ -15,13 +15,18 @@ class SearchBar extends Component {
     render() {
         // handling user inputs with property onChange
 return (
-    <div>
+    <div className ="search-bar">
         <input
             value={this.state.term}
-            onChange={event => this.setState({term: event.target.value})}/>
+            onChange={event => this.onInputChange(event.target.value)}/>
 
     </div>
         );
+    }
+    onInputChange(term){
+        this.setState({term});
+        this.props.onSearchTermChange(term);
+
     }
 }
 
